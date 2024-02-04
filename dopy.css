@@ -1,0 +1,114 @@
+* { @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap'); 
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth ;
+}
+.nav-bar{
+    display:flex;
+   
+    width:100%;
+    height:15vh;
+    align-items: center;
+ 
+    
+  
+}
+    .back{  
+    height: 100vh;
+    width:100%;
+    background-image: url(dopler.png);
+    background-size: cover;
+    background-color: rgba(28, 28, 28, 0.673);
+
+    }
+
+      .nav-bar .menu li a {
+    color:aliceblue;
+    font-size: 20px;
+    border-radius: 20px; 
+    
+   
+}
+      .nav-bar .logo a  {
+
+    font-size:35px;
+    font-weight:700;
+    color:rgb(86, 177, 238);
+    padding-left: 65%;
+    letter-spacing:1px;
+}
+    .nav-bar .menu li  {
+    list-style: none;
+    display: inline-block;
+    font-weight:bold;
+    padding:0px 50px;
+    text-transform: capitalize;
+    
+    
+}   .nav-bar   .menu {
+    margin-left: 35%;
+}
+.nav-bar .menu li a:hover{
+    transition: .4s;
+    color:rgb(103, 183, 169);
+}
+section{
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    top:20%;
+    left:8%;
+}
+section .text{
+    position:absolute;
+    color:#3c9fc6;
+    font-size: 4vw;
+    text-align:center;
+    font-family: 'Rancho', cursive;   
+    line-height: 1em;
+
+}
+section .text span {  
+    font-size: 0.50em;
+letter-spacing: 2px; 
+color: rgb(115, 233, 235);
+font-weight:400; }
+.me {
+position: relative;
+color:#367892;
+
+top:150px;
+width:70%;
+font-wegiht:700;
+font-size: 20px;
+font-family:'Rancho', cursive ;
+
+}
+
+.about{
+    background-image: url(about\ ui.png);
+    height: 100vh;
+    width:100%;
+   margin:0px;
+   
+    background-size: cover;
+   
+} .services{
+    background-image: url(services.png);
+    height: 100vh;
+    width:100%;
+   margin:0px;
+   
+    background-size: cover;
+} .contacts{
+    background-image: url(final.png);
+    height: 100vh;
+    width:100%;
+   margin:0px;
+   
+    background-size: cover;
+}
